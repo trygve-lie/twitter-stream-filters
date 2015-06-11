@@ -12,7 +12,7 @@
     },
     "scripts": {
         "pretest": "jshint ./lib/*.js ./test/*.js",
-        "test": "node ./test/stream.js"
+        "test": "tap test/*.js"
     },
     "keywords": [
         "twitter",
@@ -25,6 +25,7 @@
         "through2": "0.6.x"
     },
     "devDependencies": {
-        "jshint": "latest"
+        "jshint": "latest",
+        "tap": "latest"
     }
 }
