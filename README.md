@@ -2,8 +2,8 @@
 
 [![Dependencies](https://img.shields.io/david/trygve-lie/twitter-stream-filters.svg?style=flat-square)](https://david-dm.org/trygve-lie/twitter-stream-filters)
 
-A set of convenience filters for filtering messages from the [Twitter Stream API](https://dev.twitter.com/streaming/overview) 
-- These are a through streams to be used with the [twitter-stream-api](https://github.com/trygve-lie/twitter-stream-api) 
+A set of convenience filters for filtering messages from the [Twitter Stream API](https://dev.twitter.com/streaming/overview). 
+These are a through streams to be used with the [twitter-stream-api](https://github.com/trygve-lie/twitter-stream-api) 
 module.
 
 
