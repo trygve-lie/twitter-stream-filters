@@ -22,6 +22,7 @@
     "author": "Trygve Lie <github@trygve-lie.com>",
     "license": "MIT",
     "dependencies": {
+        "core-util-is": "1.x",
         "through2": "2.x"
     },
     "devDependencies": {
