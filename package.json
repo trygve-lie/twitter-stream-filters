@@ -1,6 +1,6 @@
 {
     "name": "twitter-stream-filters",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A set of convenience filters for filtering messages from the Twitter Stream API - To be used with the twitter-stream-api module.",
     "main": "lib/main.js",
     "repository": {
