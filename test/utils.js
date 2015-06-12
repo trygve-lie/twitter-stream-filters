@@ -27,3 +27,30 @@ tap.test('utils.isRetweet() - object not a retweet', function (t) {
         t.end();
     });
 });
+
+
+tap.test('utils.isRetweet() - object is a delete message', function (t) {
+    fs.readFile(path.resolve(__dirname, 'mock.delete.json'), 'utf-8', function (error, data) {
+        var obj = JSON.parse(data);
+        t.equal(false, utils.isRetweet(obj), 'is false');
+        t.end();
+    });
+});
+
+
+tap.test('utils.isReply() - object is a delete message', function (t) {
+    fs.readFile(path.resolve(__dirname, 'mock.delete.json'), 'utf-8', function (error, data) {
+        var obj = JSON.parse(data);
+        t.equal(false, utils.isReply(obj), 'is false');
+        t.end();
+    });
+});
+
+
+tap.test('utils.isReply() - object is a reply to a user message', function (t) {
+    fs.readFile(path.resolve(__dirname, 'mock.reply.to.user.json'), 'utf-8', function (error, data) {
+        var obj = JSON.parse(data);
+        t.equal(true, utils.isReply(obj), 'is false');
+        t.end();
+    });
+});
