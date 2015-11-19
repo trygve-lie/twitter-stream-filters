@@ -66,3 +66,21 @@ tap.test('utils.isReply() - object is a delete message', function (t) {
         t.end();
     });
 });
+
+
+
+tap.test('utils.isDelete() - object is a delete message', function (t) {
+    fs.readFile(path.resolve(__dirname, 'mock.delete.json'), 'utf-8', function (error, data) {
+        var obj = JSON.parse(data);
+        t.equal(true, utils.isDelete(obj), 'is true');
+        t.end();
+    });
+});
+
+tap.test('utils.isDelete() - object is not a delete message', function (t) {
+    fs.readFile(path.resolve(__dirname, 'mock.tweet.json'), 'utf-8', function (error, data) {
+        var obj = JSON.parse(data);
+        t.equal(false, utils.isDelete(obj), 'is false');
+        t.end();
+    });
+});

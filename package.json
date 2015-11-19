@@ -1,6 +1,6 @@
 {
     "name": "twitter-stream-filters",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A set of convenience filters for filtering messages from the Twitter Stream API - To be used with the twitter-stream-api module.",
     "main": "lib/main.js",
     "repository": {
@@ -22,11 +22,11 @@
     "author": "Trygve Lie <github@trygve-lie.com>",
     "license": "MIT",
     "dependencies": {
-        "core-util-is": "1.x",
-        "through2": "2.x"
+        "core-util-is": "1.0.1",
+        "through2": "2.0.0"
     },
     "devDependencies": {
-        "jshint": "latest",
-        "tap": "latest"
+        "jshint": "2.8.0",
+        "tap": "2.3.0"
     }
 }
