@@ -27,6 +27,6 @@
     },
     "devDependencies": {
         "jshint": "2.9.2",
-        "tap": "5.5.0"
+        "tap": "5.7.0"
     }
 }
