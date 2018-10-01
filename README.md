@@ -1,6 +1,6 @@
 # twitter-stream-filters
 
-[![Dependencies](https://img.shields.io/david/trygve-lie/twitter-stream-filters.svg?style=flat-square)](https://david-dm.org/trygve-lie/twitter-stream-filters)[![Build Status](http://img.shields.io/travis/trygve-lie/twitter-stream-filters/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/twitter-stream-filters)
+[![Dependencies](https://img.shields.io/david/trygve-lie/twitter-stream-filters.svg?style=flat-square)](https://david-dm.org/trygve-lie/twitter-stream-filters)[![Build Status](http://img.shields.io/travis/trygve-lie/twitter-stream-filters/master.svg?style=flat-square)](https://travis-ci.org/trygve-lie/twitter-stream-filters) [![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/twitter-stream-filters.svg)](https://greenkeeper.io/)
 
 
 A set of convenience filters for filtering messages from the [Twitter Stream API](https://dev.twitter.com/streaming/overview). 
