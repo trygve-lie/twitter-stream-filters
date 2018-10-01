@@ -22,11 +22,11 @@
     "author": "Trygve Lie <github@trygve-lie.com>",
     "license": "MIT",
     "dependencies": {
-        "core-util-is": "1.0.1",
+        "core-util-is": "1.0.2",
         "through2": "2.0.3"
     },
     "devDependencies": {
-        "jshint": "2.9.4",
-        "tap": "8.0.1"
+        "jshint": "2.9.6",
+        "tap": "12.0.1"
     }
 }
